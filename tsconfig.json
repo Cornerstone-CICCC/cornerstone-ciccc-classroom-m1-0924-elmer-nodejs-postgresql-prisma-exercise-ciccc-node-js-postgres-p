@@ -7,6 +7,6 @@
     "strict": true,
     "esModuleInterop": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "node_modules/.prisma/client/index.d.ts"],
   "exclude": ["node_modules"]
 }
